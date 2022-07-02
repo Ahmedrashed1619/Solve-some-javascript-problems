@@ -410,3 +410,49 @@ switch (operator) {
         document.write(`this operator don't found`);
 }*/
 
+
+
+//..........[21] Palindromes...............
+
+// function palindromes(word){
+//     let regx = /[\W]/g;
+//     let response = word.replace(regx , '');
+//     let myWord = response.split('').reverse().join('');
+//     myWord === response ? console.log('true') : console.log('false');
+// }
+
+// palindromes('rar');
+// palindromes('eye');
+// palindromes('yahay');
+// palindromes('never');
+// palindromes('_never odd or even_');
+// palindromes('ahmed');
+
+
+//..........[22] Call stack & event loop...............
+                                            // output => one , four , three , two
+// console.log('one');  
+
+// setTimeout(() => {
+//     console.log('two');
+// }, 100);
+
+// setTimeout(() => {
+//     console.log('three');
+// }, 0);
+
+// console.log('four');
+
+
+//..........[23] what will log  (Hoisting)...............
+
+// var i = 2;
+
+// let fun = function(){
+    
+//     console.log(i);
+
+//     var i = 5;
+// }
+
+// fun();                          // output => undefined
